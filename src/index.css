@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.border-box {
+  -moz-box-sizing: 'border-box';
+  -webkit-box-sizing: 'border-box';
+  box-sizing: 'border-box';
+}
+
+form {
+  padding: 1rem;
+  background-color: grey;
+  color: white;
+}
+
+.field {
+  margin: 10px 0px 10px 0px;
+}
